@@ -1,29 +1,64 @@
 # git-demo
 
-This repository is a **teaching sandbox** used to demonstrate core Git and GitHub workflows in class.
+# git-demo
 
-It is intentionally minimal and is **not tied to any specific course** (Bioinformatics, Data Science, ML, etc.).
+This repository is a **teaching sandbox** used for live demonstrations of Git and GitHub workflows.
 
-## What this repo is used for
+It is intentionally reused, reset, and modified during class to illustrate how Git tracks changes over time.
 
-This repo is used to demonstrate:
+---
 
-- Cloning a GitHub repository
-- Creating directories and files inside a repo
-- Adding, committing, and pushing changes
-- Copying a project directory from Google Drive into a GitHub repo
-- Using Git from Google Colab or a local machine
+## Purpose of this repository
 
-## Important clarification (common confusion)
+This repository is used to demonstrate:
 
-> You **cannot clone a directory into GitHub**.
+- Cloning a GitHub repository into Google Colab
+- Creating directories and files inside a repository
+- Staging, committing, and pushing changes
+- Deleting directories and committing removals
+- Understanding that Git tracks **changes**, not folders
+- Working with an ephemeral environment (Google Colab) and a persistent remote (GitHub)
 
-You can:
-- **Clone a repository** *from* GitHub to your machine or Colab
-- **Add a directory** to a repository by committing and pushing files
+The contents of this repository may change frequently as part of live demos.
 
-Git tracks **files**, not empty directories.
+---
 
-## Structure
+## Important note for students
 
-Demo materials may appear under:
+> ⚠️ **This is NOT a project or assignment repository.**
+
+- Do **not** rely on this repository for permanent files
+- Do **not** submit work here
+- Do **not** assume files will persist between classes
+
+Students should use their **own GitHub repositories** for assignments and projects.
+
+---
+
+## Why files appear and disappear
+
+Google Colab runs on a temporary virtual machine.  
+Each class session starts from a clean environment, but GitHub retains the repository history.
+
+As part of the demo, directories (such as `demos/`) may be:
+- created
+- modified
+- deleted
+- recreated
+
+This is intentional and demonstrates how version control works.
+
+---
+
+## How to follow along in class
+
+1. Clone this repository into Colab
+2. Observe changes via `git status`
+3. Watch how commits reflect additions and deletions
+4. Practice the same workflow in your own repository
+
+---
+
+## Key takeaway
+
+> GitHub reflects your **commit history**, not your local filesystem state.
