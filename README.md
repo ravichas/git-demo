@@ -1,7 +1,5 @@
 # git-demo
 
-# git-demo
-
 This repository is a **teaching sandbox** used for live demonstrations of Git and GitHub workflows.
 
 It is intentionally reused, reset, and modified during class to illustrate how Git tracks changes over time.
